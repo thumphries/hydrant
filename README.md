@@ -1,5 +1,7 @@
 # hydrant
 
+![570502](https://user-images.githubusercontent.com/355756/32174474-0fa70198-bdd6-11e7-976a-d8aaabc437c9.jpg)
+
 Hydrant is a Haskell library for fast and simple markup construction.
 
 It is a library that turns trees into strings. It aims to do that
