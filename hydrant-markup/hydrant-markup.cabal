@@ -41,6 +41,5 @@ library
 
   exposed-modules:
                      Hydrant.Markup
-                     Hydrant.Markup.Data
                      Hydrant.Markup.Internal
                      Hydrant.Markup.Monadic
