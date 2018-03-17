@@ -20,6 +20,7 @@ module Hydrant.Markup (
 
 import           Data.Functor (Functor (..))
 import           Data.Function ((.))
+import           Data.Monoid (Monoid)
 import           Data.Text (Text)
 
 import qualified Hydrant.Markup.Internal as Internal
@@ -30,7 +31,7 @@ import qualified Text.Builder as B
 
 newtype Markup = Markup {
     unMarkup :: Builder
-  }
+  } deriving (Monoid)
 
 toText :: Markup -> Text
 toText =
